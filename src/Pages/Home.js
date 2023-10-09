@@ -104,8 +104,8 @@ const Pic = styled.figure`
   margin-inline-end: 40px;
 `;
 const Image = styled.img`
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 140px;
   margin-left: auto;
   margin-right: auto;
   width: 185px;

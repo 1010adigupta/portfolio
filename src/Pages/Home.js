@@ -12,37 +12,22 @@ const Home = () => {
         </figcaption>
       </Pic>
       <Para>
-        I&rsquo;m a designer-turned-developer & math graduate with a strong
-        interest in applied cryptography, zero knowledge proofs & its
-        application in the Ethereum ecosystem.
+        I&rsquo;m a blockchain research engineer, having proficiency in rust, solidity and related frameworks
         <br />
         <br />
-        Proficient in the MERN stack and skilled in solidity, I've been
-        exploring the intricacies of huffing and low-level EVM for over a year.
+       Currently doing research in MEV, Sequencing, Zk, and low level EVM functionalities.
         <br />
         <br />
-        I&rsquo;m currently a zk fellow at&nbsp;
-        <StyledLink href="https://abcdelabs.github.io/zkcamp">
-          ABCDE Labs
-        </StyledLink>{" "}
-        & a ZK fellow at{" "}
-        <StyledLink href="https://www.zkcamp.xyz/aztec">
-          Aztec's Noir Cohort - 1
-        </StyledLink>
-        . I specialize in the development & optimization of ZK circuits in
-        Circom, Halo2, Noir.
+        Feel free to browse through my projects, research papers and reading resources.
         <br />
         <br />
-        <span style={{ color: "white" }}>
-          If you're hiring for the post of zk circuit engineer / zk auditor,
-          feel free to reach out to me via email or twitter.
-        </span>
+        
       </Para>
       <Contact>Contact</Contact>
       <Links>
         [
         <StyledLink
-          href="mailto:00nullity@gmail.com"
+          href="mailto:1010adigupta@gmail.com"
           target="_blank"
           referrerPolicy="no-referrer"
         >
@@ -50,7 +35,7 @@ const Home = () => {
         </StyledLink>
         ] [
         <StyledLink
-          href="https://twitter.com/nullity00"
+          href="https://twitter.com/darex_1010"
           target="_blank"
           referrerPolicy="no-referrer"
         >
@@ -58,7 +43,7 @@ const Home = () => {
         </StyledLink>
         ] [
         <StyledLink
-          href="https://github.com/nullity00"
+          href="https://github.com/1010adigupta"
           target="_blank"
           referrerPolicy="no-referrer"
         >
@@ -66,11 +51,11 @@ const Home = () => {
         </StyledLink>
         ] [
         <StyledLink
-          href="https://be.net/nullity00"
+          href="https://www.linkedin.com/in/aditya-gupta-905a61239/"
           target="_blank"
           referrerPolicy="no-referrer"
         >
-          Behance
+          LinkedIn
         </StyledLink>
         ]
       </Links>

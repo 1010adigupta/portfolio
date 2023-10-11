@@ -8,26 +8,50 @@ const Courses = () => {
       <CareerDiv>
         <Left>
           <Role>
-            <Emphasize> BTA</Emphasize>
+            <Emphasize>Udemy</Emphasize>
           </Role>
           <Year>June 2023</Year>
           <LinkSpan>
             [
             <StyledLink
-              href="https://blockchaintrainingalliance.com/products/zcash"
+              href="https://www.udemy.com/certificate/UC-90b1468c-d6d7-43e8-a5ec-8cf91626ed57/"
               target="_blank"
               referrerPolicy="no-referrer"
             >
-              site
+              certificate
             </StyledLink>
             ]
           </LinkSpan>
         </Left>
         <Right>
-          <RightHeader>Understanding and Developing on Zcash</RightHeader>
+          <RightHeader>Advanced Solidity: Yul and Assembly</RightHeader>
           <div class="detail">
-            Learnt the foundations of Zcash, its use cases, development &
-            governance, halo2 in zcash.
+            Learned advanced implementaitons of Yul and Assembly level coding in solidity.
+          </div>
+        </Right>
+      </CareerDiv>
+      <CareerDiv>
+        <Left>
+          <Role>
+            <Emphasize>Udemy</Emphasize>
+          </Role>
+          <Year>July 2023</Year>
+          <LinkSpan>
+            [
+            <StyledLink
+              href="https://www.udemy.com/certificate/UC-9b666840-97a2-4f27-b89f-40f8e6baf2ac/"
+              target="_blank"
+              referrerPolicy="no-referrer"
+            >
+              certificate
+            </StyledLink>
+            ]
+          </LinkSpan>
+        </Left>
+        <Right>
+          <RightHeader>Advanced Solidity: Understanding and Optimizing Gas costs.</RightHeader>
+          <div class="detail">
+            Learned Advanced Gas optimzation techniques in solidity.
           </div>
         </Right>
       </CareerDiv>
@@ -61,27 +85,25 @@ const Courses = () => {
       <CareerDiv>
         <Left>
           <Role>
-            <Emphasize> Encode Club </Emphasize>
+            <Emphasize>0xparc</Emphasize>
           </Role>
           <Year>Feb - March 2023</Year>
           <LinkSpan>
             [
             <StyledLink
-              href="https://opensea.io/assets/matic/0xdBf2138593aeC61d55d86E80b8ed86D7b9ba51F5/2858"
+              href="https://learn.0xparc.org/materials/circom/learning-group-1/intro-zkp/"
               target="_blank"
               referrerPolicy="no-referrer"
             >
-              NFT
+              site
             </StyledLink>
             ]
           </LinkSpan>
         </Left>
         <Right>
-          <RightHeader>ZK Bootcamp 2023</RightHeader>
+          <RightHeader>Circom Zk Bootcamp</RightHeader>
           <div class="detail">
-            Successfully completed an intensive boot camp Zero Knowledge Proofs
-            gaining practical knowledge and hands-on experience in Zokrates,
-            Cairo, Noir, SnarkyJS, Circom.
+            Succesfully completed Zk circuit learning and implementaitons in circom language.
           </div>
         </Right>
       </CareerDiv>
@@ -116,52 +138,19 @@ const Courses = () => {
           </div>
         </Right>
       </CareerDiv>
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> Coursera </Emphasize>
-          </Role>
-          <Year>May 2022</Year>
-          <LinkSpan>
-            [
-            <StyledLink
-              href="https://www.coursera.org/specializations/blockchain"
-              target="_blank"
-              referrerPolicy="no-referrer"
-            >
-              site
-            </StyledLink>
-            ]
-          </LinkSpan>
-        </Left>
-        <Right>
-          <RightHeader>
-            Blockchain Specialization by University at Buffalo & The State
-            University of New York
-          </RightHeader>
-          <div class="detail">
-            Got the basics of blockchain technology, its applications and the
-            architecture of Bitcoin, Ethereum, Hyperledger and other
-            decentralized applications.
-          </div>
-        </Right>
-      </CareerDiv>
       <Heading>Formal Education</Heading>
       <CareerDiv>
         <Left>
           <Role>
-            <Emphasize> St. Joseph's College </Emphasize>
+            <Emphasize> Indian Institute of Technology, Roorkee </Emphasize>
           </Role>
-          <Year>Jun 2018 - May 2021</Year>
+          <Year>Dec 2021 - March 2026</Year>
         </Left>
         <Right>
-          <RightHeader>Bachelors in Mathematics</RightHeader>
+          <RightHeader>BS-MS, Mathematics and Computing</RightHeader>
           <div class="detail">
-            Completed my Bachelor's degree in Mathematics with StyledLink CGPA
-            of 8.6 with in-depth knowledge in Discrete Maths, Graph Theory,
-            Algorithms, C++, MATLAB, Probability, Fourier Analysis & Transform,
-            Regression, Vectors & Calculus.
-          </div>
+            Currenlty pursuing BS-MS in Mathematics and Computing, at IIT Roorkee. 
+             </div>
         </Right>
       </CareerDiv>
     </Content>

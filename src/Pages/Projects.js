@@ -8,225 +8,45 @@ const Projects = () => {
       <CareerDiv>
         <Left>
           <Role>
-            <Emphasize> circom-circuits </Emphasize>
+            <Emphasize> Zk-Mask </Emphasize>
             <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/circom-circuits"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
+            [
+            <StyledLink
+              href="https://ethglobal.com/showcase/zkmask-0x1z4"
+              target="_blank"
+              referrerPolicy="no-referrer"
+            >
+              link
+            </StyledLink>
+            ]
+            [
+            <StyledLink
+              href="https://github.com/zkMask"
+              target="_blank"
+              referrerPolicy="no-referrer"
+            >
+              code
+            </StyledLink>
+            ]
             </LinkSpan>
           </Role>
         </Left>
 
         <Right>
           <div>
-            Developed StyledLink library for bit manipulation, floating point
-            operations, operations with multiple operands in circom.
+            Developed circom circuits for Zk-Mask, a Zk based biometric authentication mobile application, which enables 2 factor authentication for ethereum transactions.
           </div>
         </Right>
       </CareerDiv>
-      <Heading>Resources</Heading>
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> web3-resources </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/web3-resources/"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-
-        <Right>
-          <div>
-            Collection of web3 resources for blockchain enthusiasts. Contains
-            some major alpha on ZKP, Solidity & auditing.
-          </div>
-        </Right>
-      </CareerDiv>
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> HardhatFoundrykit </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/Hardhat-Foundry-Super-Kit"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-
-        <Right>
-          <div>
-            Hardhat Foundry template with constants & useful packages for
-            testing, deployment & verification across multiple chains.
-          </div>
-        </Right>
-      </CareerDiv>
-      <Heading>Audit Reports</Heading>
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> audits </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/audits"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-
-        <Right>
-          <div>
-            All of my audits aggregated in one repository. This includes smart
-            contracts in Solidity, circuits in circom & rust as well.
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <Heading>CTFs / Puzzles</Heading>
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> zkp-mooc-berkeley </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/zkp-mooc-berkeley"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            Solutions to the circom exercises prepped by UC Berkeley RDI for the
-            ZKP MOOC 2023
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> ZKBootcamp </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/ZeroKnowledgeBootcamp"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            Solutions to cairo exercises prepped during Encode ZK Bootcamp by
-            mentors from EntropyIO
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> huff-puzzles </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/huff-puzzles"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            Solutions to huff exercises created for Rareskill's Advanced
-            Solidity Bootcamp
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> zk-puzzles </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/zero-knowledge-puzzles"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                link
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            Solutions to the circom exercises prepped by Rareskills. Constraint
-            checks added for the exercises in the main branch.
-          </div>
-        </Right>
-      </CareerDiv>
-
       <Heading>Blockchain</Heading>
-
       <CareerDiv>
         <Left>
           <Role>
-            <Emphasize> Testing-Web3 </Emphasize>
+            <Emphasize> rust-teos </Emphasize>
             <LinkSpan>
               [
               <StyledLink
-                href="https://testing-web3.vercel.app/"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                site
-              </StyledLink>
-              ] [
-              <StyledLink
-                href="https://github.com/nullity00/Testing-Web3"
+                href="https://github.com/talaia-labs/rust-teos/pull/222/files"
                 target="_blank"
                 referrerPolicy="no-referrer"
               >
@@ -236,126 +56,10 @@ const Projects = () => {
             </LinkSpan>
           </Role>
         </Left>
+
         <Right>
           <div>
-            A fun attempt to try out some of the interesting projects in Web3
-            which include snapshot, lighthouse ..
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> Trug </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://trug.vercel.app/"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                site
-              </StyledLink>
-              ] [
-              <StyledLink
-                href="https://github.com/nullity00/Trug"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                code
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            A decentralized file storage platform which functions quite similar
-            to Google Drive with static URLs and enhanced Web3 features.
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> mintbaseXsupabase </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/mintbaseXsupabase"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                code
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            The app pulls NFTs as graphdata from the public Mintbase graph, uses
-            Supabase Auth to manage users and Supabase tables for the NFT, Like
-            and Comment data.
-          </div>
-        </Right>
-      </CareerDiv>
-
-      <Heading>Web2</Heading>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> landing-page-spect</Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://spect.network"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                site
-              </StyledLink>
-              ] [
-              <StyledLink
-                href="https://github.com/nullity00/landing-page-spect"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                code
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>Landing Page for Spect Network</div>
-        </Right>
-      </CareerDiv>
-
-      <CareerDiv>
-        <Left>
-          <Role>
-            <Emphasize> Travel-Advisor </Emphasize>
-            <LinkSpan>
-              [
-              <StyledLink
-                href="https://github.com/nullity00/Travel-Advisor-"
-                target="_blank"
-                referrerPolicy="no-referrer"
-              >
-                code
-              </StyledLink>
-              ]
-            </LinkSpan>
-          </Role>
-        </Left>
-        <Right>
-          <div>
-            A simple React App which lists all the Hotels, Restaurants & Tourist
-            Attractions in StyledLink specified location.
+            Developed Bolt 13 Bitcoin-compliant watchtower at Eye of Satoshi in rust, which is used to monitor lightning transactions, coded the development of a non-accountable mode for the watchtower.
           </div>
         </Right>
       </CareerDiv>

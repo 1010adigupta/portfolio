@@ -9,15 +9,15 @@ const SideBar = () => {
   function getTitleFromPath(pathname) {
     switch (pathname) {
       case "/":
-        return "nullity";
+        return "darex";
       case "/projects":
-        return "nullity - projects";
+        return "darex - projects";
       case "/courses":
-        return "nullity - courses";
+        return "darex - courses";
       case "/career":
-        return "nullity - career";
+        return "darex - career";
       default:
-        return "nullity";
+        return "darex";
     }
   }
   useEffect(() => {
@@ -25,7 +25,7 @@ const SideBar = () => {
   });
   return (
     <SideBarDiv>
-      <Heading>nullity</Heading>
+      <Heading>darex</Heading>
       <Nav>
         <StyledLink to="/" isactive={pathname === "/"}>
           Home

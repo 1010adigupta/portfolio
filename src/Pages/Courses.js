@@ -144,7 +144,7 @@ const Courses = () => {
           <Role>
             <Emphasize> Indian Institute of Technology, Roorkee </Emphasize>
           </Role>
-          <Year>Dec 2021 - March 2026</Year>
+          <Year>Dec 2021-March 2026</Year>
         </Left>
         <Right>
           <RightHeader>BS-MS, Mathematics and Computing</RightHeader>

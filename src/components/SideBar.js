@@ -16,6 +16,8 @@ const SideBar = () => {
         return "darex - courses";
       case "/career":
         return "darex - career";
+      case "/experience":
+          return "darex - experience";
       default:
         return "darex";
     }
@@ -38,6 +40,9 @@ const SideBar = () => {
         </StyledLink>
         <StyledLink to="/career" isactive={pathname === "/career"}>
           Career
+        </StyledLink>
+        <StyledLink to="/experience" isactive={pathname === "/experience"}>
+          Experience
         </StyledLink>
       </Nav>
     </SideBarDiv>
